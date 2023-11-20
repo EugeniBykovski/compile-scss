@@ -1,0 +1,16 @@
+.btn {
+  padding: 0.6rem $p-2;
+  transition: all 0.3s;
+
+  &__add {
+    background: $color-green;
+  }
+
+  &__err {
+    background: $color-error;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
